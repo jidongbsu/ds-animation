@@ -319,7 +319,7 @@ var code=[
 	"1.  for(int i = 0; i < rows; i++) {",
 	"2.  \t\t\t a[i] = new double[cols];",
 	"3.  \t\t\t for (int j=0; j<cols; j++) {",
-	"4.  \t\t\t \t\t\t a[i][j] == double(i+1) / double(j+1);",
+	"4.  \t\t\t \t\t\t a[i][j] = double(i+1) / double(j+1);",
 	"5.  \t\t\t }",
 	"6.  }",
 	"7.  for(int i = 0; i < rows; i++) {",
