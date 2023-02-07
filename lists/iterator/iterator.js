@@ -212,7 +212,7 @@ var itr2_arrow = new Konva.Arrow({
 var pts2 = itr2_arrow.points();
 
 var text_p = new Konva.Text({
-	x: 945,
+	x: 1100,
 	y: 610,
 	text: "p",
 	id: 'list_itr_p',
@@ -222,7 +222,7 @@ var text_p = new Konva.Text({
 });
 
 var arrow_p = new Konva.Arrow({
-	points: [950, 605, 950, 535],
+	points: [1100, 605, 1100, 535],
 	tension: 0.5,
 	pointerLength: 10,
 	pointerWidth: 10,
@@ -531,9 +531,9 @@ var tween = new Konva.Tween({
 
 var pts_p = arrow_p.points();
 function increment_p() {
-	text_p.x(text_p.getX()+320);
-	pts_p[0] = pts_p[0] + 320;
-	pts_p[2] = pts_p[2] + 320;
+	text_p.x(text_p.getX()+160);
+	pts_p[0] = pts_p[0] + 160;
+	pts_p[2] = pts_p[2] + 160;
 	itr2_arrow.points(pts_p);
 }
 
