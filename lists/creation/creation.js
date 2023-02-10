@@ -338,7 +338,7 @@ var code_list=[
 	"5.  \t\t\t Node<int>* q = new Node<int>;",
 	"6.  \t\t\t q->value = 8;",
 	"7.  \t\t\t q->next = NULL;",
-	"8.  \t\t\t head -> next = q;",
+	"8.  \t\t\t head->next = q;",
 	"9.  \t\t\t cout << \"1st value: \" << head->value << endl;",
 	"10. \t\t\tcout << \"2nd value: \" << head->next->value << endl;",
 	"11. }",
