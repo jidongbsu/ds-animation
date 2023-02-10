@@ -316,7 +316,7 @@ for (let i=0;i<code.length;i++){
 
 var code_list=[
         "0.  std::list<int> s;",
-	"1.  std::list<int>::iterator p;",
+	"1.  std::list<int>::iterator p; // code initializing p is omitted",
         "2.  p = s.erase(p);",
 ];
 
@@ -562,6 +562,7 @@ function list_erase_nextstep() {
                 layer.draw();
                 pc2=pc2+1;
         }else if(pc2 == 5){
+		makeBold_list(-1);
 		var shape = stage.find('#list_arrow_2');
 		shape.to({
 			opacity: 0,
@@ -586,7 +587,7 @@ function list_erase_nextstep() {
                 pc2=pc2+1;
 		increment_p();
                 layer.draw();
-        }else if(pc2 == 7){
+        }else if(pc2 == 6){
 		alert("End of animation! Refresh the page if you want to re-run the animation.");
                 layer.draw();
                 pc2=pc2+1;
