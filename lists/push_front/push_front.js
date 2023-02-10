@@ -288,7 +288,7 @@ for (let i=0;i<code.length;i++){
 }
 
 var code_list=[
-        "0.  void push_front(Node<T>* & head, T const& value) {",
+        "0.  void push_front(Node<T>* & head, const T& value) {",
 	"1.  \t\t\t Node<T>* tmp = new Node<T>;",
         "2.  \t\t\t tmp->value = value;",
 	"3.  \t\t\t tmp->next = head;",
